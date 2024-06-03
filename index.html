@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h2><b>Cadastra-se</b></h2>
+    <form action="processa.js" method="post" name="form1">
+        <label><b>Nome:</b></label>
+         <input type="text" name="nome" size="40" placeholder="(Nome completo)"><br>
+        
+        <label><b>Email:</b></label>
+         <input type="text" name="email" size="40"><br>
+
+        <label><b>CPF:</b></label>
+         <input type="text" name="cpf" size="10"><br>
+         
+        <label><b>Data Nascimento:</b></label>
+         <input type="text" name="data_nasc" size="5"><br>
+
+         <label><b>Sexo</b></label>
+        <select name="sexo">
+            <option value="m">Masculino</option>
+            <option value="f">Feminino</option>
+            <option value="o">Outros</option>
+        </select><br>
+
+        <label><b>Estado Civil:</b></label>
+        <select name="estado_civil">
+            <option value="s">Solteiro(a)</option>
+            <option value="c">Casado(a)</option>
+            <option value="d">Divorciado(a)</option>
+            <option value="v">Viúvo(a)</option>
+        </select><br>
+
+        <label><b>Estado:</b></label>
+        <input type="text" name="estado" size="10"><br>
+
+        <label><b>Município:</b></label>
+         <input type="text" name="municipio" size="30"><br>
+
+         <label><b>Telefone:</b></label>
+         <input type="text" name="telefone" size="10"><br><br>
+
+    <button><input type="submit" value="Login" style="border: none;"></button>
+        </form>
+</body>
+</html>
